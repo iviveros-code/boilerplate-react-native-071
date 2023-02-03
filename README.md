@@ -1,4 +1,4 @@
-# ⚛️ Boilerplate-react-native 0.70.6 version
+# ⚛️ Boilerplate-react-native 0.71.2 version
 ![image](https://user-images.githubusercontent.com/51721302/211879639-fe4b6e88-41dd-49dd-b0a9-25d0787edeea.png)### Simple boilerplate to initialize a new project in React Native with Typescript
 ***
 ![andoid](https://user-images.githubusercontent.com/51721302/152192878-2534ee93-d114-4d9c-8468-524a38d1caf2.gif)
