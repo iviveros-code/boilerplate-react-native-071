@@ -46,7 +46,7 @@
 - ***Create a new project from***  `npx react-native init name-project --template https://github.com/iviveros-code/boilerplate-react-native-071` . Few things to know:
  The command will fail if you have the global legacy react-native-cli installed. Make sure you uninstall it first.[@react-native-community/cli](https://github.com/react-native-community/cli#about)
  
-- [RUNNING ON SIMULATOR](https://reactnative.dev/docs/running-on-simulator-ios)
+- ***[RUNNING ON SIMULATOR](https://reactnative.dev/docs/running-on-simulator-ios)
  
  
 
