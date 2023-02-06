@@ -10,8 +10,10 @@
   // You can add your custom initial props in the dictionary below.
   // They will be passed down to the ViewController used by React Native.
   self.initialProps = @{};
-  [RNSplashScreen show];
-  return [super application:application didFinishLaunchingWithOptions:launchOptions];
+  bool didFinish= [super application:application didFinishLaunchingWithOptions:launchOptions]; //splash screen
+
+  [RNSplashScreen show];  //splash screen
+  return didFinish; //splash screen
 }
 
 - (NSURL *)sourceURLForBridge:(RCTBridge *)bridge
