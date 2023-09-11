@@ -5,15 +5,16 @@ import {hasNotch} from 'react-native-device-info';
 import {useNetInfo} from '@react-native-community/netinfo';
 
 import {Images} from '@constants';
+import {TextInputComponent} from '@components';
 
 import {styles} from './styles';
 
 export const OneScreenExample = () => {
-  const netInfo = useNetInfo();
+  // const netInfo = useNetInfo();
 
   return (
     <SafeAreaView style={styles.container}>
-      <Text style={{fontSize: 20, fontWeight: '700'}}>
+      {/* <Text style={{fontSize: 20, fontWeight: '700'}}>
         React Native Boilerplate
       </Text>
       <FastImage source={Images.Splash.Logo} style={styles.image} />
@@ -29,7 +30,13 @@ export const OneScreenExample = () => {
         <Text>Connected</Text>
       ) : (
         <Text>Not Connected</Text>
-      )}
+      )} */}
+      <TextInputComponent
+        // label="Email"
+        value="test"
+        placeholder="Enter your email"
+        right={true}
+      />
     </SafeAreaView>
   );
 };
