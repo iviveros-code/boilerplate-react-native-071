@@ -1,4 +1,4 @@
-# ⚛️ Boilerplate-react-native 0.71.2 version. Typescript by default
+# ⚛️ Boilerplate-react-native 0.72.4 version. Typescript by default
 ![image](https://user-images.githubusercontent.com/51721302/211879639-fe4b6e88-41dd-49dd-b0a9-25d0787edeea.png)### Simple boilerplate to initialize a new project in React Native with Typescript
 ***
 ![andoid](https://user-images.githubusercontent.com/51721302/152192878-2534ee93-d114-4d9c-8468-524a38d1caf2.gif)
@@ -21,7 +21,7 @@
 
 5. [Axios](https://axios-http.com/docs/intro) Instead of Fetch.
 
-6. [React Final Form](https://final-form.org/docs/react-final-form/getting-started) This library replace Redux Form, it's an awesome way to handle forms and actually works very well in React Native.
+6. [React Hook Form](https://react-hook-form.com/) For handle forms.
 
 7. [React Native Testing Library](https://callstack.github.io/react-native-testing-library/docs/getting-started)  For test screens and components.
 
@@ -39,6 +39,9 @@
 
 12. [Redux Toolkit and RTK Query ](https://redux-toolkit.js.org/introduction/getting-started) For State Management and fast api responses.
 
+13: [react-i18next](https://react.i18next.com/) For internationalization
+
+14. [Redux-Persist](https://github.com/rt2zz/redux-persist) For persist user session .
 
 ***
 # 🚀 How does it works?
@@ -48,22 +51,9 @@
  
 - ***[RUNNING ON SIMULATOR](https://reactnative.dev/docs/running-on-simulator-ios)***
  
- 
-
-***
-# 🌳 What structure do I propose?
-
-![Captura de Pantalla 2022-02-02 a la(s) 14 07 30](https://user-images.githubusercontent.com/51721302/152202233-8cc54cd6-7994-4edd-b0cc-399a9aee97f5.png)
+ [LinkedIn](https://www.linkedin.com/in/ivan-viveros/)
 
 
-# ⁇ Why ⁇
-
-Because you need to be structured at the moment to set up a new project, assets need to be outside the main folder because you don't need extra size. 
-Inside the src main folder, you have some folders with the same "status" like app, config, constants, hooks, services, theme, utils. 
-Inside the app folder, you have components (global re-utilizable components, if the component only affects one specific screen they must be inside the component folder inside the specific screen for example `login/components/Form`. Then have a context, navigation of the entire app and the screens folder.
-And remember one style file by folder. For example =>
-
-![Captura de Pantalla 2022-02-02 a la(s) 16 51 36](https://user-images.githubusercontent.com/51721302/152226696-fcea75ea-8cf0-4f66-8739-3f0ba2e644b2.png)
 
 
 ***
