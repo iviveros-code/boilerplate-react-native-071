@@ -1,20 +1,19 @@
-import React, {useEffect} from 'react';
-import {NavigationContainer} from '@react-navigation/native';
-import {Navigation} from '@navigation';
+import './src/i18n'
+import React, { useEffect } from 'react'
+import { NavigationContainer } from '@react-navigation/native'
+import { Provider as ReduxProvider } from 'react-redux'
+import { Provider as PaperProvider } from 'react-native-paper'
+import SplashScreen from 'react-native-splash-screen'
 
-import {Provider as ReduxProvider} from 'react-redux';
+import { theme } from '@theme'
+import { Navigation } from '@navigation'
 
-import store from './src/redux/store';
-import {theme} from '@theme';
-
-import {Provider as PaperProvider} from 'react-native-paper';
-
-import SplashScreen from 'react-native-splash-screen';
+import store from './src/redux/store'
 
 const App = () => {
   useEffect(() => {
-    SplashScreen.hide();
-  }, []);
+    SplashScreen.hide()
+  }, [])
 
   return (
     <ReduxProvider store={store}>
@@ -24,7 +23,7 @@ const App = () => {
         </NavigationContainer>
       </PaperProvider>
     </ReduxProvider>
-  );
-};
+  )
+}
 
-export default App;
+export default App
